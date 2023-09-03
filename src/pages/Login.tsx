@@ -5,7 +5,7 @@ const Login = () => {
   const [user, setUser] = useState({ username: "", password: "" });
   const [message, setMessage] = useState("");
   const [err, setErr] = useState(false);
-  const [give, setGet]=useState("")
+  
   const handleLogin = async (e: React.MouseEvent) => {
     e.preventDefault();
     console.log("User details:", user);
